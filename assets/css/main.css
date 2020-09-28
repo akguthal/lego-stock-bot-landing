@@ -2685,8 +2685,8 @@ input, select, textarea {
 
 	section.special, article.special {
     text-align: center;
-    border-top: 3px solid #F6EC35;
-    border-bottom: 3px solid #F6EC35;
+    border-top: 3px solid #E8FCCF;
+    border-bottom: 3px solid #E8FCCF;
 	}
 
 	header p {
@@ -3150,8 +3150,8 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background-color: #D11013;
-			color: #F6EC35;
+			background-color: #134611;
+			color: white;
 		}
 
 			.wrapper.style2 input[type="submit"],
