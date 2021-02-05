@@ -2330,7 +2330,7 @@ input, select, textarea {
 
     @media screen and (max-width: 736px) {
       .image.phone {
-        width: 20em;
+        display: none;
       }
     }
 
@@ -3961,7 +3961,7 @@ input, select, textarea {
 			}
 
 				#header h1 {
-					font-size: 2em;
+					font-size: 4em;
 				}
 
 				#header p {
