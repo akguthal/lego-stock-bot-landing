@@ -3965,8 +3965,8 @@ input, select, textarea {
 				}
 
 				#header p {
-					font-size: 1em;
-					line-height: inherit;
+					font-size: 1.5em;
+					line-height: auto;
 				}
 
 		}
