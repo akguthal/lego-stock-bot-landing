@@ -1564,7 +1564,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 540px) {
 
 			.row {
 				display: flex;
@@ -1912,7 +1912,7 @@ input, select, textarea {
 			opacity: 0.25;
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 540px) {
 
 			input[type="submit"].icon,
 			input[type="reset"].icon,
@@ -1924,7 +1924,7 @@ input, select, textarea {
 
 		}
 
-	@media screen and (max-width: 480px) and (orientation: portrait) {
+	@media screen and (max-width: 540px) and (orientation: portrait) {
 
 		input[type="submit"],
 		input[type="reset"],
@@ -2537,7 +2537,7 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 540px) {
 
 			ul.actions:not(.fixed) {
 				-moz-flex-direction: column;
@@ -3605,7 +3605,7 @@ input, select, textarea {
 
 	}
 
-	@media screen and (max-width: 480px) and (orientation: landscape) {
+	@media screen and (max-width: 540px) and (orientation: landscape) {
 
 		.wrapper {
 			padding: 2em 1.5em 0.1em 1.5em ;
@@ -3613,7 +3613,7 @@ input, select, textarea {
 
 	}
 
-	@media screen and (max-width: 480px) and (orientation: portrait) {
+	@media screen and (max-width: 540px) and (orientation: portrait) {
 
 		.wrapper {
 			/* padding: 2em 1em 0.1em 1em ; */
@@ -3965,8 +3965,8 @@ input, select, textarea {
 				}
 
 				#header p {
-					font-size: 1em;
-					line-height: inherit;
+					font-size: 1.5em;
+					line-height: auto;
 				}
 
 		}
@@ -4006,7 +4006,7 @@ input, select, textarea {
 
 		}
 
-	@media screen and (max-width: 480px) and (orientation: landscape) {
+	@media screen and (max-width: 540px) and (orientation: landscape) {
 
 		#header {
 			padding: 2em 1.5em 0.1em 1.5em ;
@@ -4022,7 +4022,7 @@ input, select, textarea {
 
 	}
 
-	@media screen and (max-width: 480px) and (orientation: portrait) {
+	@media screen and (max-width: 540px) and (orientation: portrait) {
 
 		#header {
 			padding: 2em 1em 0.1em 1em ;
