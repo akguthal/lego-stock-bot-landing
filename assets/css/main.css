@@ -3933,6 +3933,10 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) and (orientation: portrait) {
 
+      .image.phone {
+        display: none;
+      }
+
 			#header {
 				padding: 6em 3em 4em 3em ;
 				-moz-flex-direction: column-reverse;
@@ -3961,11 +3965,11 @@ input, select, textarea {
 			}
 
 				#header h1 {
-					font-size: 3em;
+					font-size: 2.5em;
 				}
 
 				#header p {
-					font-size: 1.5em;
+					font-size: 1em;
 					line-height: auto;
 				}
 
