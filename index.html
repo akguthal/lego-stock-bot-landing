@@ -75,7 +75,6 @@
 						<li><a href="#commands" class="button icon solid fa-chevron-down scrolly">How it works</a></li>
           </ul>
           <span>Msg & data rates may apply. SMS alerts only supported for LEGO Shop USA.</span>
-          <div style='margin-top: 10px;'><a href='https://ko-fi.com/K3K63LHIT' target='_blank' style="border-bottom: none;"><img height='30' style='border:0px;height:30px;' src='https://cdn.ko-fi.com/cdn/kofi4.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a></div>
 				</div>
 				<div class="image phone"><div class="inner"><img src="images/demo.jpg" alt="" /></div></div>
 			</header>
@@ -162,6 +161,14 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+			<script>
+				kofiWidgetOverlay.draw('brickhound', {
+					'type': 'floating-chat',
+					'floating-chat.donateButton.text': 'Donate',
+					'floating-chat.donateButton.background-color': '#00b9fe',
+					'floating-chat.donateButton.text-color': '#fff'
+				});
+			</script>
 	</body>
 </html>
