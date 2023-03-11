@@ -3625,10 +3625,6 @@ input, select, textarea {
 
 	#header {
     background-color: #222222;
-    background-image: url("images/bg.jpg");
-    background-blend-mode: multiply;
-    background-size: contain;
-    background-attachment: fixed;
 		color: #ffffff;
 		padding: 4.5em 0 2.5em 0 ;
 		-moz-align-items: center;
